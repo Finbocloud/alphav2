@@ -1,0 +1,4 @@
+variable "rg" {
+}
+variable "location" { 
+}
