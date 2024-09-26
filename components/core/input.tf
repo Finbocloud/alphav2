@@ -2,10 +2,13 @@ variable "rg" {
 }
 variable "location" { 
 }
-variable "acr" { 
+variable "acr" {
 }
-variable "aks" { 
+variable "aks" {
 }
 variable "environment" { 
 }
-
+variable "keyvault" {
+}
+variable "owner" {
+}

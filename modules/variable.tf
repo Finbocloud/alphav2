@@ -8,3 +8,7 @@ variable "aks" {
 }
 variable "environment" { 
 }
+variable "keyvault" {
+}
+variable "owner" {
+}
