@@ -2,4 +2,6 @@
     location = "uksouth"
     acr = "mycontainerreg"
     aks = "azure-kubernetes-service"
-    
+    keyvault = "keyvault"
+    environment = "dev"
+    owner = "alphav2"

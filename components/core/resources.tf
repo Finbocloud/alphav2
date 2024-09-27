@@ -7,4 +7,6 @@ module "alphav2-resources" {
     acr = var.acr
     aks = var.aks
     environment = var.environment
+    keyvault = var.keyvault
+    owner = var.owner
 }
