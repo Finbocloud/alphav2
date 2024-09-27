@@ -9,4 +9,5 @@ module "alphav2-resources" {
     environment = var.environment
     keyvault = var.keyvault
     owner = var.owner
+    tag = var.tag
 }

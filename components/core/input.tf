@@ -12,3 +12,5 @@ variable "keyvault" {
 }
 variable "owner" {
 }
+variable "tag" {
+}
