@@ -10,4 +10,5 @@ module "alphav2-resources" {
     keyvault = var.keyvault
     owner = var.owner
     tag = var.tag
+    vnet = var.vnet
 }

@@ -14,3 +14,5 @@ variable "owner" {
 }
 variable "tag" {
 }
+variable "vnet" {
+}
