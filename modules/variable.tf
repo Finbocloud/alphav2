@@ -16,7 +16,8 @@ variable "tag" {
 }
 variable "vnet" {
 }
-  
+variable "managedid" {
+}
 variable "subscriprion_id" {
 }
 variable "nsg" {
