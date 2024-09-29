@@ -7,6 +7,6 @@ terraform {
   }
 }
 provider "azurerm" {
-    subscription_id = "your_subscription_id"
+    subscription_id = var.subscriprion_id
   features {}
 }

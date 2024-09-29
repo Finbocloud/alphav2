@@ -11,4 +11,8 @@ module "alphav2-resources" {
     owner = var.owner
     tag = var.tag
     vnet = var.vnet
+    managedid = var.managedid
+    subscriprion_id = var.subscriprion_id
+    nsg =var.nsg
+    nsg_rule = var.nsg_rule
 }

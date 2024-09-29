@@ -24,3 +24,5 @@ terraform.rc
 # Ignore the workspace files which are local environment settings
 .terraform-workspace
 .tfplan
+dev_provider.tfvars
+qa_provider.tfvars

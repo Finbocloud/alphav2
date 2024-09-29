@@ -14,3 +14,12 @@ variable "owner" {
 }
 variable "tag" {
 }
+variable "vnet" {
+}
+  
+variable "subscriprion_id" {
+}
+variable "nsg" {
+}
+variable "nsg_rule" {
+}
