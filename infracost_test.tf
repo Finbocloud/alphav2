@@ -34,31 +34,3 @@ resource "azurerm_linux_virtual_machine" "my_linux_vm" {
   }
 }
 
-resource "azurerm_service_plan" "my_app_service" {
-  location = "eastus"
-  name = "test"
-  resource_group_name = "test_resource_group"
-  os_type = "Windows"
-
-  sku_name = "P1v2"
-  worker_count = 4 # <<<<<<<<<< Try changing this to 8 to compare the costs
-
-  tags = {
-    Environment = "Prod"
-    Service = "web-app"
-  }
-}
-
-resource "azurerm_linux_function_app" "my_function" {
-  location = "eastus"
-  name = "test"
-  resource_group_name = "test"
-  service_plan_id = "/subscriptions/123/resourceGroups/testrg/providers/Microsoft.Web/serverFarms/serverFarmValue"
-  storage_account_name = "test"
-  storage_account_access_key = "test"
-  site_config {}
-
-  tags = {
-    Environment = "Prod"
-  }
-}
